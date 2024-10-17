@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorio</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    header, nav, section, footer {
+        border: 1px solid #12e435;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: blue;
+    }
+    .section-title {
+        font-weight: bold;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .product {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .product img {
+        width: 100px;
+        height: 100px;
+        background-color: #ddd;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f5eeee;
+    }
+</style>
+<body>
+    
+    <nav>
+        <a href="../index.html" target="_blank">Inicio</a></center>
+    </nav>
+    <section>
+        <h2 class="section-title">Accesorios</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="imagenes/gafas.jpg">
+                <p>Gafas de sol - $19.99</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/relojpulsera.jpg">
+                <p>Reloj de pulsera - $129.99</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/Bolsomano.jpg">
+                <p>Bolso de Mano - $79.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Tienda de Moda. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

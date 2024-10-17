@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Moda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header, nav, section, footer {
+            border: 1px solid #12e435;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: blue;
+        }
+        .section-title {
+            font-weight: bold;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .product {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            background-color: #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e40b0b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Tienda de Moda</h1> <nav>
+            <a href="./index.html" target="_blank">Inicio</a></center>
+            <a href="TiendaVirtual/nuevas_llegadas.html" target="_blank">Nuevas Llegadas</a></center>
+            <a href="TiendaVirtual/Hombre.html" target="_blank">Hombre</a></center>
+            <a href="TiendaVirtual/mujer.html" target="_blank">Mujer</a></center>
+            <a href="TiendaVirtual/accesorios.html" target="_blank">Accesorios</a></center>
+            <a href="TiendaVirtual/contacto.html" target="_blank">Contacto</a></center>
+            
+        </nav>
+    </header>
+
+        
+        <section>
+            <h2 class="section-title">Bienvenidos a la Tienda de Moda</h2>
+            <p>Descubre las últimas tendencias en ropa y accesorios</p>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="TiendaVirtual/imagenes/camisa.jpg">
+                    <p>Moda Hombre</p>
+                </div>
+                <div class="product">
+                    <img src="TiendaVirtual/imagenes/Ropa mujer.jpg">
+                    <p>Moda Mujer</p>
+                </div>
+            </div>
+        </section>
+
+       
+    </div>
+
+</body>
+</html>
